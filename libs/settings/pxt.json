@@ -1,0 +1,20 @@
+{
+    "name": "settings",
+    "description": "Settings storage in internal flash",
+    "files": [
+        "README.md",
+        "RAFFS.cpp",
+        "RAFFS.h",
+        "Flash.h",
+        "STM32Flash.cpp",
+        "SAMDFlash.cpp",
+        "NRF52Flash.cpp",
+        "settings.cpp",
+        "settings.ts",
+        "shims.d.ts"
+    ],
+    "public": true,
+    "dependencies": {
+        "core": "file:../core"
+    }
+}

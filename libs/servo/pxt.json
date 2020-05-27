@@ -1,0 +1,16 @@
+{
+    "name": "servo",
+    "description": "A micro-servo library",
+    "files": [
+        "README.md",
+        "servo.ts",
+        "jacdac.ts",
+        "ns.ts",
+        "targetoverrides.ts"
+    ],
+    "public": true,
+    "dependencies": {
+        "core": "file:../core",
+        "jacdac": "file:../jacdac"
+    }
+}

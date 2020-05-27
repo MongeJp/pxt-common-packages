@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "out": "../built/common-sim.js",
+        "rootDir": ".",
+        "newLine": "LF",
+        "declaration": true,
+        "sourceMap": false,
+        "types": ["bluebird"],
+        "typeRoots": ["../node_modules/@types"]
+    },
+    "include": [
+        "../libs/*/sim/*.ts"
+    ]
+}
+

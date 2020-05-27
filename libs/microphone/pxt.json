@@ -1,0 +1,20 @@
+{
+    "name": "microphone",
+    "description": "The microphone library",
+    "files": [
+        "README.md",
+        "microphone.cpp",
+        "microphonehw.cpp",
+        "jacdac.ts",
+        "enums.d.ts",
+        "shims.d.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "dependencies": {
+        "core": "file:../core",
+        "jacdac": "file:../jacdac"
+    }
+}

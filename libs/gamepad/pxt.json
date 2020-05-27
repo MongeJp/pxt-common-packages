@@ -1,0 +1,24 @@
+{
+    "name": "gamepad",
+    "description": "Gamepad controller over HID",
+    "files": [
+        "gamepad.cpp",
+        "shims.d.ts",
+        "gamepad.ts",
+        "jacdac.ts"
+    ],
+    "tests": [
+        "test.ts"
+    ],
+    "public": true,
+    "dependencies": {
+        "core": "file:../core",
+        "jacdac": "file:../jacdac"
+    },
+    "yotta": {
+        "config": {
+            "DEVICE_USB": 1,
+            "DEVICE_JOYSTICK": 1
+        }
+    }
+}

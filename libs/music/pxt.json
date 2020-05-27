@@ -1,0 +1,25 @@
+{
+    "name": "music",
+    "description": "The music library",
+    "files": [
+        "README.md",
+        "music.cpp",
+        "enums.d.ts",
+        "shims.d.ts",
+        "melodies.ts",
+        "music.ts",
+        "piano.ts",
+        "ns.ts",
+        "headphone.svg",
+        "jacdac.ts",
+        "pxtparts.json"        
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "dependencies": {
+        "core": "file:../core",
+        "jacdac": "file:../jacdac"
+    }
+}

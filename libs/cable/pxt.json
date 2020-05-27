@@ -1,0 +1,15 @@
+{
+    "name": "cable",
+    "description": "Communication over Wire",
+    "files": [
+        "README.md",
+        "cable.cpp",
+        "cable.ts",
+        "shims.d.ts"
+    ],
+    "public": true,
+    "dependencies": {
+        "core": "file:../core",
+        "pulse": "file:../pulse"
+    }
+}

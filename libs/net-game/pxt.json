@@ -1,0 +1,14 @@
+{
+    "name": "net-game",
+    "description": "WiFi support in Arcade - beta",
+    "files": [
+        "settings.ts"
+    ],
+    "public": true,
+    "dependencies": {
+        "core": "file:../core",
+        "settings": "file:../settings",
+        "net": "file:../net",
+        "game": "file:../game"
+    }
+}
